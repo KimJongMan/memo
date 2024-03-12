@@ -35,3 +35,9 @@ https://dpay.hanacard.co.kr:14443/MKCA2D10100M.web?cardInfoUri=MKCDCM1010M.web&i
 
 비대면 
 https://dpay.hanacard.co.kr:14443/MKCDCM1000M.web?CD_PD_SEQ=9049&NFTF_CH=WEB&NFTF_NO=20240215001015
+
+명지대 트래블로그만
+https://m.hanacard.co.kr/MKCA2D10100M.web?SID_INF_DRM_V=14951a60240105&NFTF_TP=NHOQ&NFTF_CD_PD_KND_C=00000
+
+명지대 기본 학생증 + 트래블로그
+https://m.hanacard.co.kr/MKCA2D10100M.web?SID_INF_DRM_V=03316a60210797&NFTF_TP=NHOQ&NFTF_CD_PD_KND_C=00000
