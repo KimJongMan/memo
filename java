@@ -1,4 +1,4 @@
-DI (Dependency Injection) 의존성 주입/ 종속성 주입
+* DI (Dependency Injection) 의존성 주입/ 종속성 주입
 
 인턴 처음 들어왔을 때 차장님이 DI가 뭐냐고 물으셨는데 대답 못했었다ㅎ..
 
@@ -14,3 +14,18 @@ DI (Dependency Injection) 의존성 주입/ 종속성 주입
 스프링 컨테이너가 관리하는 객체 : 빈(Bean)
 Bean을 관리한다고 해서 BeanFactory라고도 함.
 BeanFactory에 기능들을 추가한 것 중 애플리케이션컨텍스트(applicationContext)가 있다.
+
+
+* ORM (Object-Relational Mapper)
+= 객체-관계 매퍼 (객체와 RDBMS의 데이터를 자동으로 매핑해주는 것)
+
+
+객체(객체지향)와 RDBMS의 데이터(관계지향)를 매핑한다
+RDB의 관계를 객체에 반영
+객체를 통해서 간접적으로 DB데이터를 다룬다.
+객체와 DB데이터를 자동으로 매핑해줌.
+-> 어떻게? ORM이 객체와 관계 사이에서 SQL을 자동으로 생성해줌.
+메소드로 DB데이터 조작 = 객체지향
+-> OOP의 언어를 그대로 쓰면서 객체와 RDBMS의 데이터를 매핑
+(OOP를 OOP답게)
+ex) JPA, Hibernate
