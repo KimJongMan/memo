@@ -33,3 +33,6 @@ ex) JPA, Hibernate
 *Filter, Interceptor, AOP 설명
   https://velog.io/@miot2j/Spring-Filter-Interceptor-AOP-%EC%B0%A8%EC%9D%B4-%EB%B0%8F-AOP%EB%A5%BC-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-Logging%EC%9D%84-%EA%B5%AC%ED%98%84%ED%95%9C-%EC%9D%B4%EC%9C%A0
   https://baek-kim-dev.site/61
+
+*취업 관련
+  https://velog.io/@whdgnszz1/%EC%83%9D%EA%B0%81-%EC%A0%80%EC%9E%A5%EC%86%8C-%EB%B9%84%EC%A0%84%EA%B3%B5%EC%9E%90-%EC%8B%A0%EC%9E%85-%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%A0%84%EA%B3%B5%EC%9E%90%EC%99%80-%EA%B2%BD%EC%9F%81%ED%95%98%EB%8A%94%EB%B2%95
