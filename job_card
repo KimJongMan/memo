@@ -54,7 +54,7 @@ A26 : http://175.120.243.115:8083/MPCACDA100M.web?CD_PD_KND_DV_NM=SCL&CD_PD_SEQ=
 A26(공주페이, 디지털2차) : https://dpay.hanacard.co.kr:14443/MKCDCM1010M.web?CD_PD_SEQ=12091&CD_PD_KND_DV_NM=SCL&NFTF_NO=20240502000024
 A67 : https://dpay.hanacard.co.kr:14443/MKCDCM1010M.web?CD_PD_SEQ=17567&eno=0010142 => 0 고정, 0101 42(기기번호)
 
-
+저축은행 : https://dpay.hanacard.co.kr:14443/MKCDCM1010M.web?CD_PD_SEQ=16993&NFTF_NO=60240530000001
 
 https://www.inflearn.com/community/studies
 https://okky.kr/community
