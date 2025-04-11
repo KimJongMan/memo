@@ -87,3 +87,68 @@ https://dpay.hanacard.co.kr:14443/MKCDCM1010M.web?CD_PD_SEQ=17535&SID_INF_DRM_V=
  https://m.hanacard.co.kr/mobile_web/landing/hana_family_in_house/index.jsp
 
 
+<div class="ui-box-block type-box chk_on">
+<div class="ez-radio ez-selected"><input type="radio" class="ui-radio ez-hide" name="TRCD_CHO_YN" id="RADIO_TRCD_CHO_N" value="0"></div>
+<label for="RADIO_TRCD_CHO_N" class="ui-label">
+<span class="ui-label-text">사용 안함</span>
+</label>
+</div>
+
+
+
+
+<div class="ui-box-block type-box">
+<div class="ez-radio"><input type="radio" class="ui-radio ez-hide" name="TRCD_CHO_YN" id="RADIO_TRCD_CHO_N" value="0"></div>
+<label for="RADIO_TRCD_CHO_N" class="ui-label">
+<span class="ui-label-text">사용 안함</span>
+</label>
+</div>
+
+
+template.js
+function radiostateTemp() {
+  jQuery(function ($) {
+    $(".radio_state .radio_ts").click(function () {
+      $(".radio_state .list").removeClass("on");
+      /*
+			$('.radio_state .list .select_ty').attr('disabled');
+			$('.radio_state .list .selectBox').addClass('selectBox-disabled');
+			*/
+      $(this).closest(".list").addClass("on");
+      /*$(this).closest('.list').find('.inner .select_ty.select_on').removeAttr('disabled');
+			$(this).closest('.list').find('.inner .selectBox.select_on').removeClass('selectBox-disabled');
+			*/
+    });
+    //$('.radio_state .on .select_ty.select_on').removeAttr('disabled');
+    //$('.radio_state .on .selectBox.select_on').removeClass('selectBox-disabled');\
+    $(".list_con_chk .chk_on").closest(".list").addClass("on");
+  });
+}
+
+
+function formTemp() {
+  jQuery(function ($) {
+    if ($("input[type='checkbox']").length > 0) {
+      $("input[type='checkbox']").ezMark(); //checkbox
+    }
+    if ($("input[type='radio']").length > 0) {
+      $("input[type='radio']").ezMark(); //radio
+    }
+
+    $("input[type='checkbox'], input[type='radio']").focusin(function () {
+      $(this).parent().addClass("ez_focus");
+    });
+    $("input[type='checkbox'], input[type='radio']").focusout(function () {
+      $(this).parent().removeClass("ez_focus");
+    });
+    $(".ez-radio div input, .ez-checkbox div input").unwrap();
+    $(".radio_box label em, .radio_box02 label em, .radio_box03 label em").remove();
+    $(".radio_box label, .radio_box02 label, .radio_box03 label").append("<em></em>");
+
+    $("input[type='checkbox']").each(function () {
+      if ($(this).hasClass("hint_chk")) {
+        $(this).parent().addClass("hint_chk");
+      }
+    });
+  });
+}
