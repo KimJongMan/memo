@@ -153,3 +153,24 @@ function formTemp() {
     });
   });
 }
+
+
+==pdf 어드민 로그인 html==
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title> StreamDocs Authenticator </title>
+</head>
+
+<body>
+	<form action="https://pdf.hanacard.co.kr/streamdocs/v4/auth" method="POST" target="_self">
+		<input name="id" type="text">
+		<input name="password" type="password">
+		<button type="submit">로그인</button>
+	</form>
+</body>
+</html>
+====================================
